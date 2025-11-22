@@ -140,7 +140,7 @@ ul {
   }
 
   .container {
-    padding: 0 var(--spacing-sm);
+    padding: 0 1.25rem;
   }
 
   .section {
@@ -151,10 +151,12 @@ ul {
     font-size: 1.25rem;
     grid-column: span 12;
     margin-bottom: var(--spacing-sm);
+    padding: 0 0.5rem;
   }
 
   .section-content {
     grid-column: span 12;
+    padding: 0 0.5rem;
   }
 
   .text-large {
