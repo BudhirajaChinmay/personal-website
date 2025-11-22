@@ -38,10 +38,10 @@ const Projects = ({ projects, skills }) => {
                         <div className="flex" style={{ flexWrap: 'wrap', gap: '0.5rem' }}>
                             {skills.map((skill, index) => (
                                 <span key={index} style={{
-                                    fontSize: '1rem',
+                                    fontSize: 'clamp(0.875rem, 2.5vw, 1rem)',
                                     backgroundColor: 'var(--color-text)',
                                     color: 'var(--color-bg)',
-                                    padding: '0.5rem 1rem',
+                                    padding: 'clamp(0.4rem, 1vw, 0.5rem) clamp(0.75rem, 2vw, 1rem)',
                                 }}>
                                     {skill}
                                 </span>
@@ -50,7 +50,7 @@ const Projects = ({ projects, skills }) => {
                     </div>
 
                     <h3 className="text-large mb-md">Selected Projects</h3>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 'var(--spacing-md)' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(300px, 100%), 1fr))', gap: 'var(--spacing-md)' }}>
                         {projects.map((project, index) => (
                             <ProjectCard key={index} project={project} />
                         ))}

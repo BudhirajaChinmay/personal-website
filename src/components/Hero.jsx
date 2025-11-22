@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Hero = ({ profile }) => {
     return (
-        <section className="container" style={{ minHeight: '90vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <section className="container" style={{ minHeight: 'max(70vh, 500px)', display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '2rem', paddingBottom: '2rem' }}>
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}

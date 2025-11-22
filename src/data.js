@@ -64,30 +64,32 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Geometry Driven Machine Learning",
-    description: "Evaluated geometric constraints in Deep Neural Networks on Stiefel Manifold.",
-    tags: ["ML", "Research"]
+    title: "Apache StreamPipes",
+    description: "Contributed to Apache StreamPipes, a self-service Industrial IoT toolbox enabling non-technical users to connect, analyze, and explore IoT data streams.",
+    url: "https://github.com/BudhirajaChinmay/streampipes",
+    tags: ["Apache", "IoT", "Java", "Open Source"]
   },
   {
     title: "Smart Transportation System",
-    description: "Web app predicting real-time seat availability in public transport using ML. SIH 2019 Finalist.",
-    tags: ["ML", "Web", "Hackathon"]
+    description: "Led team as Team Leader for Smart India Hackathon 2019 Finalist. Built ML-powered web app predicting real-time seat availability in public transport.",
+    url: "https://github.com/BudhirajaChinmay/SIH2019-Transport_Problem",
+    tags: ["ML", "Leadership", "Hackathon", "Web"]
   },
   {
-    title: "Database Design - Airlines",
-    description: "Comprehensive airline database with Java-based desktop application.",
-    tags: ["Java", "SQL", "Database"]
-  },
-  {
-    title: "ClickHouse",
-    description: "Contribution/Fork of the free analytics DBMS for big data.",
+    title: "ClickHouse DBMS",
+    description: "Contributed to ClickHouse, a high-performance analytics database management system designed for big data workloads.",
     url: "https://github.com/BudhirajaChinmay/ClickHouse",
-    tags: ["DBMS", "Big Data"]
+    tags: ["DBMS", "Big Data", "C++", "Open Source"]
   },
   {
-    title: "Vanus",
-    description: "Cloud-native, Serverless message queue for building EDA applications.",
+    title: "Vanus - Serverless Message Queue",
+    description: "Contributed to Vanus, a cloud-native serverless message queue for building event-driven architectures with ease.",
     url: "https://github.com/BudhirajaChinmay/vanus",
-    tags: ["Serverless", "Cloud-Native"]
+    tags: ["Serverless", "Cloud-Native", "Go", "EDA"]
+  },
+  {
+    title: "Geometry Driven Machine Learning",
+    description: "Research project evaluating geometric constraints of Deep Neural Networks on Stiefel Manifold, analyzing effects on convergence speed and generalizability.",
+    tags: ["ML Research", "PyTorch", "Deep Learning"]
   }
 ];
